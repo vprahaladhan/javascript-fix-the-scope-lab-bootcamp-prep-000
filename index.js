@@ -5,7 +5,7 @@ function myAnimal() {
 }
 
 function yourAnimal() {
-  animal = 'cat'
+  var animal = 'cat'
   return animal
 }
 
@@ -24,3 +24,5 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction()()
 // theFunk()
+console.log(yourAnimal())
+console.log(myAnimal())
